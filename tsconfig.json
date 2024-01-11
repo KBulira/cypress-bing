@@ -1,0 +1,26 @@
+{
+    "baseUrl": "https://www.bing.com/",
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "es6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "types": [
+            "cypress",
+            "node"
+        ]
+    },
+    "include": [
+        "**/*.ts",
+        "cypress/integration/Rest/methods.js",
+        "cypress/e2e/search.cy.js",
+        "cypress.config.js"
+    ],
+    "testFiles": "**/*.(feature, features}",
+    "ignoreTestFiles": [
+        "**/1-getting-started/*.js",
+        "**/2-advanced-examples/*.js"
+    ]
+}
